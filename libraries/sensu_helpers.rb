@@ -15,6 +15,8 @@ module Sensu
             sanitized[key] = sanitize(value) unless value.empty?
           when nil
             # noop
+          when :nil
+            sanitized[key] = nil
           else
             sanitized[key] = value
           end
