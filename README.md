@@ -164,6 +164,8 @@ for Sensu to start/stop.
 
 `node.sensu.dashboard.port` - Sensu Dashboard port.
 
+`node.sensu.dashboard.disable_authentication` - Do not require authentication for dashboard.
+
 `node.sensu.dashboard.user` - Sensu basic authentication username.
 
 `node.sensu.dashboard.password` - Sensu basic authentication password.
